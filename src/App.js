@@ -4,7 +4,7 @@ import { ModelContext } from './components/context/model-context';
 import Selector from './components/utils/Selector';
 import LoadingSpinner from './components/utils/LoadingSpinner';
 
-const MODEL_URL = process.env.PUBLIC_URL + '/newmodel/';
+const MODEL_URL = process.env.PUBLIC_URL + '/model/';
 const LABELS_URL = MODEL_URL + 'labels.json';
 const MODEL_JSON = MODEL_URL + 'model.json';
 
@@ -47,7 +47,7 @@ const App = () => {
           selectMode: selectMode
         }}>
           <div className="header-div">
-            This currently uses Mobilenetv2
+            This currently uses a Mobilenetv2 model trained on Rock-Paper-Scissor dataset
           </div>
           <div>
             {model ? (

@@ -1,4 +1,5 @@
 {
+  "homepage": "http://amurto.github.io/image-classification-browser",
   "name": "image-classification-browser",
   "version": "0.1.0",
   "private": true,
